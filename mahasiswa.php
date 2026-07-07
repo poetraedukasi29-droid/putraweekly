@@ -69,9 +69,7 @@ $no = 1;
 </td>
 
 <td>
-    <a href="editdata.php?id=<?= $mhs['id']; ?>">
-        <button>Edit</button>
-    </a>
+    <a href="editdata.php?id=<?= $mhs['id']; ?>"><button>Edit</button></a>
 
     <a href="hapusdata.php?id=<?= $mhs['id']; ?>" onclick="return confirm('Yakin ingin menghapus?')">
         <button>Hapus</button>
